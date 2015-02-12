@@ -1,0 +1,27 @@
+﻿.button_login {
+background: url('../giris_img/giris_button.png');
+width:93px;
+height:38px;
+color:#FFFFFF;
+font-family: Tahoma;
+font-size: 11px;
+border:0px;
+}
+
+
+#giris_yazi {
+background: url('../giris_img/input_giris.png');
+width:185px;
+height:32px;
+}
+
+
+.user_input {
+Position:relative;
+top:6px;
+left:10px;
+color:#808080;
+font-family: Tahoma;
+font-size: 16px;
+border:0px;
+}

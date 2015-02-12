@@ -1,0 +1,178 @@
+﻿
+#login-box {
+	width:380px;
+	height: 352px;
+	padding: 0px 0px 0 0px;
+	color: #23191a;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(images/login-box-backg.png) no-repeat left;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 44px "Calibri", Arial;
+}
+
+
+#login-box-name {
+	float: left;
+	display:inline;
+	width:80px;
+	text-align: right;
+	padding: 14px 10px 0 0;
+	margin:0 0 7px 0;
+}
+
+#login-box-field {
+	float: left;
+	display:inline;
+	width:230px;
+	margin:0;
+	margin:0 0 7px 0;
+}
+
+
+.form-login  {
+
+	border: 1px solid #f97200;
+	background-color:#fde9d8;
+	font-size: 13px;
+	color: #23191a;
+	height:20px;
+		padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+
+.form-login-area  {
+
+	border: 1px solid #f97200;
+	background-color:#fde9d8;
+	font-size: 13px;
+	color: #23191a;
+	height:85px;
+}
+
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+
+.button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 25px;
+	background-color: #F09415;
+	border-top-width: 0px;
+	border: 1px solid #F09415;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:3px;
+	}
+	
+	.button_tikli {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #777;
+	height: 30px;
+	line-height:30px;
+	background-color: #fff;
+	border-top-width: 0px;
+	border: 1px solid #F09415;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:3px;
+	}
+	
+	
+	.select  {
+
+	border: 1px solid #f97200;
+	background-color:#fde9d8;
+	font-size: 13px;
+	color: #23191a;
+	height:25px;
+	Line-height:25px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	min-width:202px;
+}
+
+
+	.select2  {
+
+	border: 1px solid #f97200;
+	background-color:#fde9d8;
+	font-size: 13px;
+	color: #23191a;
+	height:25px;
+	Line-height:25px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	min-width:50px;
+}
+
+.ninput  {
+    font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #f97200;
+	background-color:#fde9d8;
+	font-size: 13px;
+	color: #23191a;
+	height:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	min-width:190px;
+}
+
+
+
+
+.input  {
+    font-family: Arial, Helvetica, sans-serif;
+	border: 1px solid #f97200;
+	background-color:#fde9d8;
+	font-size: 13px;
+	color: #23191a;
+	height:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+
+.nfile {
+	border: 1px solid #f97200;
+	background-color:#fde9d8;
+	font-size: 13px;
+	color: #23191a;
+	height:20px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	min-width:190px;
+}

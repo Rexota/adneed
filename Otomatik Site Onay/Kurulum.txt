@@ -1,0 +1,6 @@
+Yayýncýlarýn eklediði sitelerin otomatik onaylanmasýný saðlamak amacýyla yapýlan düzenlemedir.
+
+Daha detaylý bilgi için;
+http://wmscripti.com/php-scriptler/adneed-reklam-yonetim-scripti.html
+
+WM Scripti Ekibi

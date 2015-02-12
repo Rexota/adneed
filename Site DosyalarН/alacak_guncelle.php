@@ -1,0 +1,3 @@
+<?
+alacak_guncelle();
+?>

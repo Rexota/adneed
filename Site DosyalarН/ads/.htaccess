@@ -1,0 +1,58 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+
+ReWriteRule ^people$ index.php [NC]
+ReWriteRule ^people/$ index.php [NC]
+ReWriteRule ^people/(.*).ads$ index.php [NC]
+ReWriteRule ^people/(.*).sys$ index.php [NC]
+
+
+ReWriteRule ^system$ index.php [NC]
+ReWriteRule ^system/$ index.php [NC]
+ReWriteRule ^system/(.*).txt$ index.php [NC]
+
+ReWriteRule ^system_cache$ index.php [NC]
+ReWriteRule ^system_cache/$ index.php [NC]
+ReWriteRule ^system_cache/(.*).sys$ index.php [NC]
+
+
+ReWriteRule ^ip_cache$ index.php [NC]
+ReWriteRule ^ip_cache/$ index.php [NC]
+ReWriteRule ^ip_cache/(.*).txt$ index.php [NC]
+
+ReWriteRule ^ip_cache_2$ index.php [NC]
+ReWriteRule ^ip_cache_2/$ index.php [NC]
+ReWriteRule ^ip_cache_2/(.*).txt$ index.php [NC]
+
+
+
+ReWriteRule ^cache_msn$ index.php [NC]
+ReWriteRule ^cache_msn/(.*)$ index.php [NC]
+
+ReWriteRule ^cache_pop$ index.php [NC]
+ReWriteRule ^cache_pop/(.*)$ index.php [NC]
+
+ReWriteRule ^cache_ppc$ index.php [NC]
+ReWriteRule ^cache_ppc/(.*)$ index.php [NC]
+
+ReWriteRule ^cache_splash$ index.php [NC]
+ReWriteRule ^cache_splash/(.*)$ index.php [NC]
+
+ReWriteRule ^click_msn$ index.php [NC]
+ReWriteRule ^click_msn/(.*)$ index.php [NC]
+
+ReWriteRule ^click_pop$ index.php [NC]
+ReWriteRule ^click_pop/(.*)$ index.php [NC]
+
+ReWriteRule ^click_ppc$ index.php [NC]
+ReWriteRule ^click_ppc/(.*)$ index.php [NC]
+
+ReWriteRule ^click_splash$ index.php [NC]
+ReWriteRule ^click_splash/(.*)$ index.php [NC]
+
+ReWriteRule ^popup_([0-9]+)_([0-9]+)/$ popup.php?kimlik=$1&site=$2&t=%{HTTP_REFERER} [L]
+ReWriteRule ^splash_([0-9]+)_([0-9]+)/$ splash.php?kimlik=$1&site=$2&t=%{HTTP_REFERER} [L]
+ReWriteRule ^msn_([0-9]+)_([0-9]+)/$ msn.php?kimlik=$1&site=$2&t=%{HTTP_REFERER} [L]
+ReWriteRule ^ppc_([0-9]+)_([0-9]+)_([0-9]+)/$ ppc.php?kimlik=$1&site=$2&modul=$3&t=%{HTTP_REFERER} [L]
+
